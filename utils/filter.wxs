@@ -1,0 +1,19 @@
+ var format = function(text){
+    if(!text){
+      return 
+    }
+    var reg = getRegExg('\\\\n','g')    // 双斜杠转译成了四斜杠
+    return text.replace(reg,'\n&nbsp;&nbsp;')   // 把双斜杠替换成单斜杠
+ }
+
+ var limit = function(array,length){
+   console.log(array)
+   return array.slice(0,length)
+ }
+
+ module.export = {  // 导出
+    format:format,
+    limit:limit
+ }
+
+

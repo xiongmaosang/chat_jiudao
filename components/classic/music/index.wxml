@@ -1,0 +1,13 @@
+<view  class="container">
+    <!--音乐封面图-->
+    <image class="classic-img  {{playing?'rotation':''}}" src="{{img}}" />
+    
+    <!--播放按钮-->
+    <image class="player-img" bind:tap="onPlay" src="{{!playing?playSrc:pauseSrc}}" />
+    
+    <!--音乐两个字-->
+    <image class="tag" src="images/music@tag.png" />
+    
+    <!--文字-->
+    <text  class="content">{{content}}</text>
+</view>

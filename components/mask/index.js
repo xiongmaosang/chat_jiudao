@@ -1,0 +1,26 @@
+Component({
+
+  properties: {
+
+  },
+
+  data: {
+
+  },
+
+  methods: {
+    
+  }
+})
+
+
+
+
+
+
+
+
+
+
+
+
